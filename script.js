@@ -25,7 +25,7 @@ function makeRow(text) {
 function searchWeather(searchValue) {
 
     $.get(
-        "http://api.openweathermap.org/data/2.5/weather?q=" + searchValue + "&appid=7b128e8b987a0a3980244a4ea8d9e162&units=imperial", function (data, status) {
+        "https://api.openweathermap.org/data/2.5/weather?q=" + searchValue + "&appid=7b128e8b987a0a3980244a4ea8d9e162&units=imperial", function (data, status) {
             //console.log(data, status)
             //info = { title: data.name, temp: data.main.temp, humidity: data.main.humidity, windspeed: data.wind.speed }
 
