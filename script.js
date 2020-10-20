@@ -42,7 +42,7 @@ function searchWeather(searchValue) {
 
         })
     $.get(
-        "http://api.openweathermap.org/data/2.5/forecast?q=" + searchValue + "&appid=7b128e8b987a0a3980244a4ea8d9e162&units=imperial", function (data, status) {
+        "https://api.openweathermap.org/data/2.5/forecast?q=" + searchValue + "&appid=7b128e8b987a0a3980244a4ea8d9e162&units=imperial", function (data, status) {
             console.log(data, status)
             for (var index = 1; index < 6; index++) {
                 var date = new Date(data.list[index].dt_txt)
