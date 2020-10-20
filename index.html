@@ -21,12 +21,12 @@
         <div class="row">
             <aside class="col-lg-3 bg-light">
                 <h5 class="mt-1">Search for your City!:</h5>
-                <div class="form-inline form-group">
+                <form id="formOrsomething" class="form-inline form-group">
                     <input class="form-control" type="text" id="search-value" />
-                    <button class="btn btn-primary" id="SearchBtn"> <i class="fa fa-search"></i> </button>
+                    <button type="submit" class="btn btn-primary" id="SearchBtn"> <i class="fa fa-search"></i> </button>
                     <button onclick= clearWeather() type="button" id="clearBtn" class="btn btn-danger">Clear History</button>
 
-                </div>
+                </form>
                 <div class="container" id="history">
                     <ul class="list-group " id="historyList"></ul>
                 </div>

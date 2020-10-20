@@ -1,5 +1,6 @@
 $(document).ready(function () {
-    $("#SearchBtn").on("click", function () {
+    $("#formOrsomething").on("submit", function (event) {
+        event.preventDefault()
         var searchValue = $("#search-value").val();
 
         // clear input box
@@ -72,6 +73,7 @@ function searchWeather(searchValue) {
 };
 function clearWeather() {
     localStorage.clear()
+    $("#historyList").empty();
     console.log("somthing")
 };
 
