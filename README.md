@@ -1,4 +1,5 @@
 # Weather App ![MIT License](https://img.shields.io/badge/License-MIT-Green)
+![image](https://user-images.githubusercontent.com/12057073/96650703-28229600-12e8-11eb-970c-2d83288c6def.png)
 
 ## Description
 
